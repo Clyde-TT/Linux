@@ -383,6 +383,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        前端&amp;后端
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#docker" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -993,7 +1004,7 @@
 </div>
 <h2 id="_4">服务器介绍<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <div class="admonition note">
-<div class="tabbed-set tabbed-alternate" data-tabs="3:5"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><input id="__tabbed_3_4" name="__tabbed_3" type="radio" /><input id="__tabbed_3_5" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">服务器</label><label for="__tabbed_3_2">SSH</label><label for="__tabbed_3_3">IP</label><label for="__tabbed_3_4">端口</label><label for="__tabbed_3_5">http</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:6"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><input id="__tabbed_3_4" name="__tabbed_3" type="radio" /><input id="__tabbed_3_5" name="__tabbed_3" type="radio" /><input id="__tabbed_3_6" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">服务器</label><label for="__tabbed_3_2">SSH</label><label for="__tabbed_3_3">IP</label><label for="__tabbed_3_4">端口</label><label for="__tabbed_3_5">http</label><label for="__tabbed_3_6">前端&amp;后端</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <ul>
@@ -1091,6 +1102,28 @@
 <li>浏览器渲染页面</li>
 </ul>
 </li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p>-----|-----
+<code>ssh-keygen</code>|在本地电脑生成密钥（密钥对：私钥+公钥）
+<code>ssh-copy-id user@服务器IP</code>|把公钥传到服务器（安装锁）
+<code>ssh user@服务器IP</code>|测试</p>
+</div>
+</div>
+</div>
+</div>
+<h2 id="_5">前端&amp;后端<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<div class="tabbed-set tabbed-alternate" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">服务器</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>SSH: 远程控制服务器的协议</li>
+<li>SCP: 文件传输</li>
+<li>ssh -L: 本地端口转发（访问本地端口，实际访问远程端口）</li>
+<li>ssh -R: 远程端口转发</li>
+<li>ssh -D: 动态端口转发</li>
 </ul>
 </div>
 </div>
